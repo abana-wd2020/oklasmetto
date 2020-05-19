@@ -1,0 +1,41 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+}
+
+#li_logo {
+    float: left;
+}
+
+.menuitem {
+    float: right;
+}
+
+.menuitem a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+    line-height: 85px;
+}
+
+.menuitem a:hover:not(.active) {
+    color:#FE8084 ;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+
