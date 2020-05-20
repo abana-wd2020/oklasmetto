@@ -4,35 +4,78 @@
         <title>Oklasmetto!</title>
         <link href="CSS/stile.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+        <script>function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+        
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+        </script> 
+    
     </head>
     
     <body>
         
-        <ul id=menu> 
-            <li id=li_logo> 
-                <img id=logo src="foto/Group%2019.png"/>   
-            </li>
-
-            <li class= "active menuitem">
-                <a href="#">SHOP</a>
-            </li>
-            
-            <li class= "active menuitem">
-                <a href="#">ZINE</a>
-            </li>
-
-            <li class= "active menuitem">
-                <a href="#">PRESS</a>
-            </li>
-
-            <li class= "active menuitem">
-                <a href="#">CONTATTI</a>
-            </li>
-
-            <li class= "active menuitem">
-                <a href="#">CHI SIAMO</a>
-            </li>
-        </ul>
+   <div class="flexnav">
+       <div class="logo"><a href="home" ><img src="img/Group%2019.png"></a></div>
+ <div class="topnav" id="myTopnav">
+   
+     <a href="#"><i class="fa fa-search"></i></a> 
+     <a href="#CHISIAMO" >CHI SIAMO</a>
+ 
+     <a href="#CONTATTI">CONTATTI</a>
+  <a href="#PRESSt">PRESS</a>
+  <a href="#ZINE">ZINE</a>
+  <a href="#SHOP">SHOP</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+     </a></div>
+  
+  </div>
+        
+        <div id=slidenews>
+        <img class="mySlides" src="img_snowtops.jpg">
+<img class="mySlides" src="img_lights.jpg">
+<img class="mySlides" src="img_mountains.jpg">
+<img class="mySlides" src="img_forest.jpg">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        
+        
+        
+        </div>
+  
+        
+        
+        
+    
+       
+        
                
     </body>
     

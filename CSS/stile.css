@@ -1,41 +1,72 @@
 body {
     font-family: 'Jost', sans-serif;
+
 }
 
-#menu {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    width: 80%;
-    margin: auto;
+.logo { max-width: 100%;
+    height: auto;}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+    float:right;
 }
 
-#li_logo {
-    float: left;
+.topnav a {
+  float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+
 }
 
-.menuitem {
+.topnav a:hover {
+color:#e893c6;
+
+  
+}
+
+.topnav a.active {
+
+  color:#e893c6;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .topnav a:not(:first-child) {display: none;}
+  
+.topnav a.icon {
     float: right;
+    display: block;
+  }
 }
 
-.menuitem a {
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-
-    line-height: 85px;
+@media screen and (max-width: 950px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+    
+  }
 }
 
-.menuitem a:hover:not(.active) {
-    color:#FE8084 ;
-}
+.flexnav{display: flex;
+    flex-wrap: nowrap;
+align-items: baseline;
+    .flexnav>div {align-content:space-between;
+    width: 100%;}
 
-.active {
-    background-color: #ffffff;
-}
-
-
+    
+    
