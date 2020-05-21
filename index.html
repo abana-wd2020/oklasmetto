@@ -5,95 +5,44 @@
         <link href="CSS/stile.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     
-        <script>function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
 
-            
-          var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-        </script> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script type="text/javascript" src="java/index.js"></script>
+</head>
     
-    </head>
-    
+  
     <body>
-       
-  <div class="flex-header">
-        <a href="home"><img width="40%" src="foto/loghi/Group%2019@2x.png"></a> 
-    </div>
-
-<div class="flexnav">
-       <div class="topnav" id="myTopnav">
-   
-     <a href="#"><i class="fa fa-search"></i></a> 
-     <a href="#CHISIAMO" >CHI SIAMO</a>
- 
-     <a href="#CONTATTI">CONTATTI</a>
-    <a href="#ZINE">ZINE</a>
-  <a href="#SHOP">SHOP</a>
+  
+  <div id=home><img src="foto/loghi/Group%2019.svg"></div>
+        
+  <div id=nav><div class="topnav" id="myTopnav">
+  <a href="#" class="active"></a>
+  <a href="#">CHI SIAMO</a>
+  <a href="#c">CONTATTI</a>
+  <a href="#">ZINE</a>
+            <a href="#">SHOP</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
-     </a></div>
+  </a>
 
+        </div></div>
 
-     </div>   
-       <div class="slideshow-container">
-
-<div class="mySlides fade">
-  
-  <img src="foto/home/news_01.jpg" style="width:100%">
-  <div class="text">SALUTI DA</div>
-</div>
-
-<div class="mySlides fade">
-
-  <img src="foto/home/news_02.jpg" style="width:100%">
-  <div class="text">WOOWMEN</div>
-</div>
-
-<div class="mySlides fade">
-  
-  <img src="foto/home/Miriam_Makeba.jpg"style="width:100%">
-  <div class="text"></div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)"><img src="foto/icone/sinistra.png"></a>
-<a class="next" onclick="plusSlides(1)"><img src="foto/icone/destra.png"></a>
-
-</div>
+        
+        
+        <div class="news"></div>
+        
+        
+        
+        
+        <div class="categories"></div>
+        
+        
+        
+        
+        
+        
+        <div class="footer"></div>
+     
 
                
     </body>
