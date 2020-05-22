@@ -1,7 +1,3 @@
-body {
-    font-family: 'Jost', sans-serif;
-}
-
 .categories {
     width: 80%;
     margin:0 auto;
@@ -29,15 +25,11 @@ body {
     font-size: 30px;
   }
 
-  .footer {
-    margin-top: 1.5em;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    background-color: #ec94c6;
-    text-align: center;
-  }
+.footer{width:100%;
+background-color: #ec94c6;
+text-align: center;
+}
 
-  .footer a {
-      text-decoration: none;
-      color: black;
-  }
+.footer a{
+    text-decoration: none;
+}
