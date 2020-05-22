@@ -1,0 +1,63 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Jost-Bold
+FamilyName:Jost
+StyleName:Bold
+MenuName:Jost
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Jost Bold
+WritingScript:Roman
+OutlineFileName:\Jost-Bold.ttf
+DataFormat:sfntData
+FileLength:69748
+FileModTime:1581375600
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1538650524
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Jost-SemiBold
+FamilyName:Jost
+StyleName:SemiBold
+MenuName:Jost SemiBold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Jost SemiBold
+WritingScript:Roman
+OutlineFileName:\Jost-SemiBold.ttf
+DataFormat:sfntData
+FileLength:69780
+FileModTime:1581375600
+%EndFont
+
