@@ -1,10 +1,11 @@
+/*--- DESKTOP NAV ---*/
+
 #logo_navbar {
     width: 100%;
     height: auto;
     max-width: 500px;
     min-width: 100px;
 }
-
 
 .topnav {
     overflow: hidden;
@@ -21,7 +22,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 152px;
 }
 
 .topnav #nav_logo {
@@ -36,28 +38,97 @@
     color: #ec94c6;
 }
 
-.topnav .icon {
-    display: none;
+
+@media screen and (max-width: 1300px) {
+    #desk_nav {
+        display: none;
+    }
+
+    #mob_top {
+        display: flex;
+        justify-content: center;
+		padding-top:1em;
+    }
+
 }
 
-  @media screen and (max-width: 1300px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
+@media screen and (min-width: 1300px) {
+    #desk_nav {
+        display: inline;
     }
-  }
+
+    #mob_top {
+        display: none;
+    }
+
+}
+
+  /*--- MOBILE NAV ---*/
+
+    #logo_mob_navbar {
+        width: 80%;
+        max-width: 500px;
+        min-width: 100px;
+        vertical-align: middle;
+    }
+
+    #nav_button {
+        font-size:40px;
+        cursor:pointer;
+        padding-left: 0.5em;
+        padding-right: 0.2em;
+        align-self: center
+    }
+
+    
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgba(236,148,198, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
   
-  @media screen and (max-width: 1300px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
     }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: right;
+  
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: black;
+        display: block;
+        transition: 0.3s;
     }
-  }
+  
+    .overlay a:hover, .overlay a:focus {
+        color: black;
+    }
+  
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+  
+    @media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}

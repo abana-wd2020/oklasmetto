@@ -20,18 +20,33 @@
     
     <body>
     
-        <div id=nav>
-                <div class="topnav" id="myTopnav">
-                    <a id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
-                    
-                    <a href="#">SHOP</a>
-                    <a href="#">ZINE</a>
-                    <a href="#">CONTATTI</a>
-                    <a href="#">CHI SIAMO</a>
-                    <a href="javascript:void(0);" class="icon" onclick=toggle_navbar()> <i class="fa fa-bars"></i></a>
-                </div>
+        <div id=desk_nav>
+            <div class="topnav" id="myTopnav">
+                <a id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
+                
+                <a href="#">SHOP</a>
+                <a href="#">ZINE</a>
+                <a href="#">CONTATTI</a>
+                <a href="#">CHI SIAMO</a>
             </div>
+        </div>
 
+
+        <div id="mob_nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+
+                <a href="#">CHI SIAMO</a>
+                <a href="#">CONTATTI</a>
+                <a href="#">ZINE</a>
+                <a href="#">SHOP</a>
+            </div>
+        </div>
+
+        <div id="mob_top">
+            <img id=logo_mob_navbar src="foto/loghi/Group%2019.svg">
+            <span id="nav_button" onclick="openNav()">&#9776;</span>
+        </div>
 
         <div class="news slideshow-container">
 
@@ -73,7 +88,7 @@
                 <div><img src="foto/home/quadrato.jpg"></div>
                 <div><img src="foto/home/quadrato.jpg"></div>
                 <div><img src="foto/home/quadrato.jpg"></div>
-                <div><img src="foto/home/quadrato.jpg"></div>  
+                <div><img src="foto/home/quadrato.jpg"></div>
               </div>
         </div>
     

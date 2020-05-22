@@ -1,8 +1,7 @@
-function toggle_navbar() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
+function openNav() {
+  document.getElementById("mob_nav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mob_nav").style.width = "0%";
 }
