@@ -24,3 +24,12 @@
     line-height: 75px;
     font-size: 30px;
   }
+
+.footer{width:100%;
+background-color: #ec94c6;
+text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+}
