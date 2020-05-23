@@ -1,7 +1,7 @@
 .footer {
     margin-top: 1.5em;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
     background-color: #ec94c6;
     text-align: center;
     justify-content: center;
@@ -11,3 +11,8 @@
       text-decoration: none;
       color: black;
   }
+
+.footer img{
+    width:30px;
+    
+}
