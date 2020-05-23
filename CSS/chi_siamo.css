@@ -1,0 +1,90 @@
+.foto_cerchio {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    min-width: 100px;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: flex;
+}
+
+.flex-container {
+    width: 80%;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  #title {
+    color: #ec94c6;
+}
+
+  
+
+
+
+/*mobile*/
+@media screen and (max-width: 1300px) {
+    .concept {
+        width: 100%;
+    }
+    
+    .foto {
+        width: 100%;
+        }
+    
+   
+
+    .flex-container {
+        width: 100%;
+    }
+
+    .concept {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #title {
+        text-align: center;
+    }
+    .nome_artista {
+        display: inherit;
+        text-align: center;
+        color: #ec94c6;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        }
+    #descrizione {
+    text-align: justify;  
+        }
+    
+
+}
+
+/*desktop*/
+@media screen and (min-width: 1300px) {
+    .concept {
+        width: 20%;
+    }
+    
+    .foto {
+        width: 20%;
+    }
+    
+    .flex-container div {
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+    
+   
+    .nome_artista {
+        display: none;
+    }
+    
+    } 
+
