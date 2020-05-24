@@ -30,6 +30,8 @@
 @media screen and (max-width: 1300px) {
     .concept {
         width: 100%;
+        text-align: justify;
+        hyphens: auto;
     }
     
     .foto {
@@ -70,6 +72,8 @@
 @media screen and (min-width: 1300px) {
     .concept {
         width: 20%;
+        text-align: justify;
+        hyphens:auto;
     }
     
     .foto {
