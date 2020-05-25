@@ -49,45 +49,36 @@
             <img id=logo_mob_navbar src="foto/loghi/Group%2019.svg">
             <span id="nav_button" onclick="openNav()">&#9776;</span>
         </div>
- 
-<div class="form-container">      
-        <div class="mail_form">
-
-          
-  <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-        </div>    
+        
+        
+ <div class="mail_me">
+      <div class="back"><img src="foto/icone/mail.png"></div>
+     <div class="mail_container">
+        
+     <form action="mailto:Oklasmetto@gmail.com" method="post" enctype="text/plain">
+<br>
+      <input type="text" name="name" size="50"  placeholder="name"><br>
+<br>
+      <input type="text" name="mail" size="50" placeholder="e-mail"><br>
+<br>
+      <input type="text" name="comment" size="50" placeholder="ok!parliamo"><br><br>
+   <button class="send"><img width="60px" src="foto/icone/send-mail.png"></button>
     
+     </form>
+     </div>
+        </div>
+        
+        
         <div class="footer">
-
+     
             <div>
                 <a href="https://www.instagram.com/oklasmetto_/" >
                     <img src="foto/icone/instagram.png" alt="instagram"> 
                     follow us on Instagram
                 </a>
             </div>
-
-        </div>
+ </div>
+       
 
      
     </body>
