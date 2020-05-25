@@ -1,13 +1,3 @@
-.foto_cerchio {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    min-width: 100px;
-    margin: 0 auto;
-    margin-top: 2em;
-    display: flex;
-}
-
 .flex-container {
     width: 80%;
     min-height: 600px;
@@ -22,8 +12,53 @@
     color: #ec94c6;
 }
 
-  
+/* overlay immagini galleria */
 
+.img_container {
+    position: relative;
+    justify-content: center;
+  }
+
+ .foto_cerchio {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    min-width: 100px;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: flex;
+}
+  
+  .img_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .5s ease;
+    background-color: #ec94c6;
+    border-radius: 50%;
+  }
+  
+  .img_container:hover .img_overlay {
+    opacity: 80%;
+    
+  }
+
+  .img_text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 
 /*mobile*/
@@ -36,10 +71,8 @@
     
     .foto {
         width: 100%;
-        }
+    }
     
-   
-
     .flex-container {
         width: 100%;
     }
@@ -52,43 +85,42 @@
     #title {
         text-align: center;
     }
+
     .nome_artista {
         display: inherit;
         text-align: center;
         color: #ec94c6;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: bold;
         margin-top: 1em;
         margin-bottom: 2em;
-        }
-    #descrizione {
-    text-align: justify;  
-        }
+    }
     
+    #descrizione {
+        text-align: justify;  
+    }
+    
+    .img_overlay {
+        display: none;
+    }
 
 }
 
 /*desktop*/
 @media screen and (min-width: 1300px) {
     .concept {
-        width: 20%;
-        text-align: justify;
-        hyphens:auto;
+        width: 19%;
     }
     
     .foto {
-        width: 20%;
+        width: 19%;
     }
-    
-    .flex-container div {
-        padding-left: 1em;
-        padding-right: 1em;
-      }
-    
-   
+
+    .space {
+        width: 1%;
+    }
+
     .nome_artista {
         display: none;
     }
-    
-    } 
-
+} 
