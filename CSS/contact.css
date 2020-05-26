@@ -43,6 +43,12 @@ input {
     max-width: 1080px;
     }
 
+#rispondiamo {
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
 /*mobile*/
 @media screen and (max-width: 1300px) {
     .back {
