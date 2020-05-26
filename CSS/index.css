@@ -27,7 +27,11 @@ body {font-family: 'Jost', sans-serif;}
     font-size: 30px;
   }
 
-
+.section_title {
+  text-align: center;
+  color: #ec94c6;
+  font-size: 35px;
+}
 
   /* overlay immagini galleria */
 

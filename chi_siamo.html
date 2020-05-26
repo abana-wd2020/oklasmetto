@@ -24,8 +24,8 @@
             <a id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
             
             <a href="#">SHOP</a>
-            <a href="#">ZINE</a>
-            <a href="#">CONTATTI</a>
+            <a href="zine.html">ZINE</a>
+            <a href="contatti.html">CONTATTI</a>
             <a class="active" href="#">OK!CI SIAMO</a>
         </div>
     </div>
@@ -35,9 +35,9 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="menu_overlay-content">
 
-            <a href="#">CHI SIAMO</a>
-            <a href="#">CONTATTI</a>
-            <a href="#">ZINE</a>
+            <a href="chi_siamo.html">CHI SIAMO</a>
+            <a href="contatti.html">CONTATTI</a>
+            <a href="zine.html">ZINE</a>
             <a href="#">SHOP</a>
         </div>
     </div>
@@ -58,49 +58,107 @@
                 Siamo un gruppo eterogeneo di ragazze, donne, che vogliono condividere con il mondo la loro creatività.
             </p>
         </div>
+
+        <div class="space"></div>
+        <div class="space"></div>
+
         <div class="foto"> 
 
-            <img  class="foto_cerchio" src="foto/foto_profilo/alessandra_cerchio.png">
-            <div class="nome_artista"> Alessandra </div>
+            <div class="img_container">
+                <img class="foto_cerchio" src="foto/foto_profilo/alessandra_cerchio.png" onclick="openLink('chi_siamo/alessandra.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/alessandra.html')">
+                    <div class="img_text"> Alessandra </div>
+                  </div>
+            </div>
             
+            <div class="nome_artista"> Alessandra </div>
 
-
-            <img class="foto_cerchio" src="foto/foto_profilo/carmen_cerchio.png">
-              <div class="nome_artista"> Carmen </div>
+            
+            
+            <div class="img_container">
+                <img class="foto_cerchio" src="foto/foto_profilo/carmen_cerchio.png" onclick="openLink('chi_siamo/carmen.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/carmen.html')">
+                    <div class="img_text"> Carmen </div>
+                  </div>
+            </div>
+            
+            <div class="nome_artista"> Carmen </div>
             
 
         </div>
-        
+
+        <div class="space"></div>
+
         <div class="foto"> 
 
-            <img  class="foto_cerchio" src="foto/foto_profilo/elena_cerchio.png">
-              <div class="nome_artista"> Elena </div>
+
+            <div class="img_container">
+                <img  class="foto_cerchio" src="foto/foto_profilo/elena_cerchio.png" onclick="openLink('chi_siamo/elena.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/elena.html')">
+                    <div class="img_text"> Elena </div>
+                  </div>
+            </div>
+
+            <div class="nome_artista"> Elena </div>
 
 
-            <img class="foto_cerchio" src="foto/foto_profilo/ester_cerchio.png">
+            <div class="img_container">
+                <img class="foto_cerchio" src="foto/foto_profilo/ester_cerchio.png" onclick="openLink('chi_siamo/ester.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/ester.html')">
+                    <div class="img_text"> Ester </div>
+                  </div>
+            </div>
+            
               <div class="nome_artista"> Ester </div>
 
         </div>
+
+        <div class="space"></div>
         
         <div class="foto"> 
 
-            <img  class="foto_cerchio" src="foto/foto_profilo/gaia_cerchio.png">
-              <div class="nome_artista"> Gaia </div>
+            <div class="img_container">
+                <img  class="foto_cerchio" src="foto/foto_profilo/gaia_cerchio.png" onclick="openLink('chi_siamo/gaia.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/gaia.html')">
+                    <div class="img_text"> Gaia </div>
+                  </div>
+            </div>
+
+            <div class="nome_artista"> Gaia </div>
 
 
-            <img class="foto_cerchio" src="foto/foto_profilo/giusy_cerchio.png">
+            <div class="img_container">
+                <img class="foto_cerchio" src="foto/foto_profilo/giusy_cerchio.png" onclick="openLink('chi_siamo/giusy.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/giusy.html')">
+                    <div class="img_text"> Giusy </div>
+                  </div>
+            </div>
+
               <div class="nome_artista"> Giusy </div>
 
         </div>
+
+        <div class="space"></div>
         
         <div class="foto"> 
 
-            <img  class="foto_cerchio" src="foto/foto_profilo/paola_cerchio.png">
+            <div class="img_container">
+                <img class="foto_cerchio" src="foto/foto_profilo/paola_cerchio.png" onclick="openLink('chi_siamo/paola.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/paola.html')">
+                    <div class="img_text"> Paola </div>
+                  </div>
+            </div>
+
               <div class="nome_artista"> Paola </div>
 
 
-            <img class="foto_cerchio" src="foto/foto_profilo/giorgia_cerchio.png">
-              <div class="nome_artista"> Nené </div>
+            <div class="img_container">
+                <img class="foto_cerchio" src="foto/foto_profilo/giorgia_cerchio.png" onclick="openLink('chi_siamo/giorgia.html')">
+                <div class="img_overlay" onclick="openLink('chi_siamo/giorgia.html')">
+                    <div class="img_text"> Nenè </div>
+                  </div>
+            </div>
+            <div class="nome_artista"> Nené </div>
 
         </div>
         
@@ -116,5 +174,13 @@
         
 
     </div>
+
+    <script>
+
+        function openLink(link) {
+            window.open(link,"_self");
+        }
+
+    </script>
 
 </body>

@@ -2,7 +2,7 @@
 
 #logo_navbar {
     width: 100%;
-    height: auto;
+    height: 105px;
     max-width: 500px;
     min-width: 100px;
 }
@@ -66,18 +66,15 @@
   /*--- MOBILE NAV ---*/
 
     #logo_mob_navbar {
-        width: 80%;
-        max-width: 500px;
-        min-width: 100px;
+        width: 280px;
         vertical-align: middle;
     }
 
     #nav_button {
         font-size:40px;
         cursor:pointer;
-        padding-left: 0.5em;
+        padding-left: 20px;
         padding-right: 0.2em;
-        align-self: center
     }
 
     
@@ -88,7 +85,7 @@
         position: fixed;
         z-index: 1;
         top: 0;
-        left: 0;
+        right: 0;
         background-color: rgba(236,148,198, 0.9);
         overflow-x: hidden;
         transition: 0.5s;
@@ -103,7 +100,7 @@
     }
   
     .menu_overlay a {
-        padding: 8px;
+        padding: 0px;
         text-decoration: none;
         font-size: 36px;
         color: black;
@@ -116,18 +113,20 @@
     }
   
     .menu_overlay .closebtn {
-        position: absolute;
+        text-align: center;
+        margin-left: 314px;
         top: 20px;
         right: 45px;
         font-size: 60px;
     }
-  
+
+
     @media screen and (max-height: 450px) {
     .menu_overlay a {
         font-size: 20px
     }
     .menu_overlay .closebtn {
-        font-size: 40px;
+        font-size: 60px;
         top: 15px;
         right: 35px;
     }
