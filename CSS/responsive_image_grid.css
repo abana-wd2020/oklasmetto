@@ -22,7 +22,7 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-    position: relative;
+ 
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -41,11 +41,3 @@
   }
 }
 
-.testo{
-    font-size: 20px;
-    color:#fff;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 20px;
-    text-align: center;
-}
