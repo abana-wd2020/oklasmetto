@@ -25,6 +25,10 @@
  
 }
 
+.thumb_text_mob {
+  display: none;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -40,7 +44,18 @@
     flex: 100%;
     max-width: 100%;
   }
-    
+
+  .thumb_overlay {
+    display: none;
+
+  }
+
+  .thumb_text_mob {
+    text-align: center;
+    padding-bottom: 1em;
+    display: block;
+  }
+  
 }
 
 
@@ -91,18 +106,4 @@ margin-top: 8px;
   text-align: center;
 }
 
-
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
- 
-    
-    .thumb_overlay {
- display: none;
-  
-      }
-  
-  
- }
 
