@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oklasmetto!</title>
+        
+        <link href="CSS/navbar.css" rel="stylesheet" type="text/css">
+         <link href="CSS/responsive_image_grid.css" rel="stylesheet" type="text/css">
+        <link href="CSS/footer.css" rel="stylesheet" type="text/css">
+        <link href="CSS/all.css" rel="stylesheet" type="text/css">
+        <link href="CSS/nav_categories.css" rel="stylesheet" type="text/css">
+        
+
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script type="text/javascript" src="java/navbar.js"></script>
+        <script type="text/javascript" src="java/slideshow.js"></script>
+        
+</head>
+    
+    <body>
+    
+        <div id=desk_nav>
+            <div class="topnav" id="myTopnav">
+                <a id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
+                
+                <a href="#">SHOP</a>
+                <a href="zine.html">ZINE</a>
+                <a href="contatti.html">CONTATTI</a>
+                <a href="chi_siamo.html">CHI SIAMO</a>
+            </div>
+        </div>
+
+
+        <div id="mob_nav" class="menu_overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menu_overlay-content">
+
+                <a href="chi_siamo.html">CHI SIAMO</a>
+                <a href="contatti.html">CONTATTI</a>
+                <a href="zine.html">ZINE</a>
+                <a href="#">SHOP</a>
+            </div>
+        </div>
+
+        <div id="mob_top">
+            <img id=logo_mob_navbar src="foto/loghi/Group%2019.svg">
+            <span id="nav_button" onclick="openNav()">&#9776;</span>
+        </div>
+
+       
+        
+        
+        
+        <div class="nav_categories">
+           <div><img src="foto/icone/sinistra.png"></div>
+    
+          <div><p>FUMETTI</p></div>
+           <div><img src="foto/icone/destra.png"></div>
+         </div>
+        
+        
+        
+        
+        
+        <div class="image-grid">
+            
+           
+
+
+        <div class="row"> 
+            <div class="column">
+                <div class="thumbnail">
+                      <img class="thumb_image" src="foto/fumetti/Gaia/effetto_boomerang/effetto-boomerang_01.png">
+                      <div class="thumb_overlay">
+                      <div class="thumb_text">EFFETTO BOOMERANG <br>|gaia|</div>
+                          
+                      </div>
+
+                      <div class="thumb_text_mob">EFFETTO BOOMERANG<br>|gaia|</div>
+                </div>
+                 
+                
+                
+            </div>
+                 
+                
+                   
+                 
+                  
+                  <div class="column">
+                       <div class="thumbnail">
+                      <img class="thumb_image" src="foto/fumetti/Gaia/smemory/smemory_01.png">
+                      <div class="thumb_overlay">
+                      <div class="thumb_text">SMEMORY <br>|gaia|</div>
+                      </div>
+                           <div class="thumb_text_mob">SMEMORY <br>|gaia|</div>
+                </div>
+                 
+           
+             
+                 
+                 
+              </div> 
+            
+              <div class="column">
+                  
+                        <div class="thumbnail">
+                      <img class="thumb_image" src="foto/fumetti/esercizio.png">
+                      <div class="thumb_overlay">
+                      <div class="thumb_text">HERO <br>|alessandra|</div>
+                      </div>
+                            <div class="thumb_text_mob">HERO <br>|alessandra|</div>
+                </div>
+                 
+             
+                
+                
+                   
+              </div>
+
+        </div>
+        </div>
+    
+        
+        
+        <div class="nav_categories">
+           <div><img src="foto/icone/sinistra.png"></div>
+    
+          <div><p>FUMETTI</p></div>
+           <div><img src="foto/icone/destra.png"></div>
+         </div>
+        
+        
+        
+        <div class="footer">
+
+            <div>
+                <a href="https://www.instagram.com/oklasmetto_/" >
+                    <img src="foto/icone/instagram.png" alt="instagram"> 
+                    follow us on Instagram
+                </a>
+            </div>
+
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            //showSlidesAuto();
+        </script>
+
+    </body>
