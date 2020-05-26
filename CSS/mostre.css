@@ -1,0 +1,100 @@
+.image-grid{
+    display: flex;
+    justify-content: center;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create three equal columns that sits next to each other HO CREATO UNA SOLA COLONNA PERCHè C'è UN SOLO PROGETTO */
+.column {
+  flex: 80%;
+  max-width: 80%;
+  padding: 0 4px;
+}
+
+.column img {
+  
+  vertical-align: middle;
+  width: 100%;
+ 
+}
+
+.thumb_text_mob {
+  display: none;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .thumb_overlay {
+    display: none;
+
+  }
+
+  .thumb_text_mob {
+    text-align: center;
+    padding-bottom: 1em;
+    display: block;
+  }
+  
+}
+
+
+/*imageoverlay*/
+ .thumbnail {
+  position:relative;
+margin-top: 8px;
+  
+     
+}
+
+.thumb_image {
+  
+  width: 100%;
+  height: auto;
+}
+
+.thumb_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ec94c6;
+  bottom:8px;
+
+
+}
+
+.thumbnail:hover .thumb_overlay {
+  opacity: 80%;
+}
+
+
+.thumb_text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
