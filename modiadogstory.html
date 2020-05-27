@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oklasmetto!</title>
+    <meta charset="UTF-8">
+    <link href="CSS/zineopen.css" rel="stylesheet" type="text/css">
+ 
+    <link href="CSS/slide_image_project.css" rel="stylesheet" type="text/css">
+    <link href="CSS/navbar.css" rel="stylesheet" type="text/css">
+    <link href="CSS/footer.css" rel="stylesheet" type="text/css">
+    <link href="CSS/all.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="java/navbar.js"></script>
+    <script type="text/javascript" src="java/slideshow.js"></script>
+        
+</head>
+    
+<body>
+
+
+     <div id=desk_nav>
+            <div class="topnav" id="myTopnav">
+                <a id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
+                
+                <a href="#">SHOP</a>
+                <a class="active" href="#">OK!LEGGIAMO</a>
+                <a href="contatti.html">CONTATTI</a>
+                <a href="chi_siamo.html">CHI SIAMO</a>
+            </div>
+        </div>
+
+
+        <div id="mob_nav" class="menu_overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menu_overlay-content">
+
+                <a href="chi_siamo.html">CHI SIAMO</a>
+                <a href="contatti.html">CONTATTI</a>
+                <a href="zine.html">ZINE</a>
+                <a href="#">SHOP</a>
+            </div>
+        </div>
+
+        <div id="mob_top">
+            <img id=logo_mob_navbar src="foto/loghi/Group%2019.svg">
+            <span id="nav_button" onclick="openNav()">&#9776;</span>
+        </div>
+    
+    <div class="flex-slideimg">
+        <div class="description"> 
+
+            <h2 id="des_title">#001 POSTERZINE</h2>
+            <h4 id="sub"><strong>|speciale su woowmen|</strong></h4>
+
+            <p id=des_text>
+               Nel mondo, le donne hanno un ruolo specifico. Devono rispettare le regole. Devono essere belle. Devono essere in forma. Devono essere diplomatiche, gentili, carine e discrete. Invece siamo dei fottuti animali, o sbaglio? Ruttiamo, scorreggiamo, cachiamo, ci sentiamo a disagio, grasse e brutte. Sanguiniamo dalla vagina circa una settimana al mese e la maggior parte di noi indossa biancheria scomoda solo per il desiderio di risultare sexy e fatali, ma preferiremmo di gran lunga i mutandoni della nonna (sapete, quelle che ogni 4 minuti finiscono tra le chiappe). Siamo mostri agli occhi della nostra stessa società, soprattutto quando proviamo ad essere animali e non quelle statue meravigliose che dovremmo rappresentare. Avete dato un’occhiata alle riviste? Nessuna di quelle modelle mozzafiato mostra un’espressione reale. Le donne non spendono metà della loro vita con un'espressione sexy stampata in faccia o con la bocca semi aperta con un fare ammiccante. Sfortunatamente, le donne sono donne e quello che le distingue dagli animali è che la loro mente gioca ancora un ruolo fondamentale nella lotta per liberare i loro istinti da ogni tipo di pregiudizio. 
+
+Il numero zero di questa serie di zine è dedicata proprio a noi, a Donne di ogni forma, colore e dimensione. A Donne che lavorano, studiano o crescono i loro figli. Alle donne che ruttano, cacano e scorreggiano, senza paura di non essere abbastanza di classe. Alle modelle, alle mamme grassocce e alle donne barbute Questo numero è dedicato a NOI.  
+
+
+
+Cosa succederebbe se smettessimo di usare dei filtri solo per un momento? Vi piaceremmo anche mentre ci sfiliamo la mutanda dal culo?
+        </p>
+        </div>
+        <div class="foto"> 
+
+           <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story_cover.png" style="width:100%">
+                <div class="imgtitle">COVER
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story10.png" style="width:100%">
+                <div class="imgtitle">UNFOLD ONE
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="foto/zine/apertura_zine_3.png" style="width:100%">
+                <div class="imgtitle">UNFOLD TWO</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="foto/zine/posterzine_mockup.png" style="width:100%">
+                <div class="imgtitle">TOTALLY OPENED</div>
+            </div>
+               
+                 <div class="mySlides fade">
+                <img src="foto/zine/Posterzine_retro.png" style="width:100%">
+                <div class="imgtitle">BACK</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles 
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+                -->
+
+        </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+
+            <a href="https://www.instagram.com/oklasmetto_/" >
+                <img src="foto/icone/instagram.png" alt="instagram"> 
+                follow us on Instagram
+            </a>
+        
+
+    </div>
+ <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            //showSlidesAuto();
+        </script>
+</body>
