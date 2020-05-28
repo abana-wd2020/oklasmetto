@@ -36,6 +36,8 @@
 
   #des_text {
       text-align: justify;
+      height: 300px;
+      overflow:scroll;
   }
 
   .social_ico {
