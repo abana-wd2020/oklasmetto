@@ -53,33 +53,36 @@
         
         <div class="zines">
             
-              <div class="zine-container">
+            <div class="zine-container">
                 <div class="img_box">
-                    <img class="zine_image" src="foto/zine/apertura_zine_1.png">
-                    <div class="zine_overlay">
-                       <a href="zine_open.html"> <div class="zine_text">#00 WOOWMEN</div></a>
+                    <img class="zine_image" src="foto/zine/apertura_zine_1.png" onclick="openLink('zine_open.html')">
+                    <div class="zine_overlay" onclick="openLink('zine_open.html')">
+                    <div class="zine_text">#00 WOOWMEN</div>
                    </div>
                 </div>
+                <div class="zine_text_mob">#00 WOOWMEN</div>
             </div>
 
             
             <div class="zine-container">
                 <div class="img_box">
-                    <img class="zine_image" src="foto/zine/zine_1_01.png">
-                    <div class="zine_overlay">
+                    <img class="zine_image" src="foto/zine/zine_1_01.png" onclick="openLink('#')">
+                    <div class="zine_overlay" onclick="openLink('#')">
                         <div class="zine_text">#01 INSOMNIA</div>
                    </div>
                 </div>
+                <div class="zine_text_mob">#01 INSOMNIA</div>
             </div>
             
             
                 <div class="zine-container">
                 <div class="img_box">
-                    <img class="zine_image" src="foto/zine/zine_2_02.png">
-                    <div class="zine_overlay">
+                    <img class="zine_image" src="foto/zine/zine_2_02.png" onclick="openLink('#')">
+                    <div class="zine_overlay" onclick="openLink('#')">
                         <div class="zine_text">#02 GROW UP</div>
                    </div>
                 </div>
+                <div class="zine_text_mob">#02 GROW UP</div>
             </div>
             
             
@@ -101,6 +104,14 @@
             var slideIndex = 1;
             showSlides(slideIndex);
             //showSlidesAuto();
+        </script>
+
+        <script>
+
+        function openLink(link) {
+            window.open(link,"_self");
+        }
+
         </script>
 
     </body>

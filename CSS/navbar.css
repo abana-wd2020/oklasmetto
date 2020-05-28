@@ -39,7 +39,7 @@
 }
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1360px) {
     #desk_nav {
         display: none;
     }
@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1360px) {
     #desk_nav {
         display: inline;
     }
