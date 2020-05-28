@@ -3,19 +3,19 @@
 <head>
     <title>Oklasmetto!</title>
     <meta charset="UTF-8">
-    <link href="CSS/zineopen.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/zineopen.css" rel="stylesheet" type="text/css">
  
-    <link href="CSS/slide_image_project.css" rel="stylesheet" type="text/css">
-    <link href="CSS/navbar.css" rel="stylesheet" type="text/css">
-    <link href="CSS/footer.css" rel="stylesheet" type="text/css">
-    <link href="CSS/all.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/slide_image_project.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/navbar.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/footer.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/all.css" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script type="text/javascript" src="java/navbar.js"></script>
-    <script type="text/javascript" src="java/slideshow.js"></script>
+    <script type="text/javascript" src="../java/navbar.js"></script>
+    <script type="text/javascript" src="../java/slideshow.js"></script>
         
 </head>
     
@@ -24,7 +24,7 @@
 
      <div id=desk_nav>
             <div class="topnav" id="myTopnav">
-                <a id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
+                <a id=nav_logo><img id=logo_navbar src="../foto/loghi/Group%2019.svg"></a>
                 
                 <a href="#">SHOP</a>
                 <a class="active" href="#">OK!LEGGIAMO</a>
@@ -46,7 +46,7 @@
         </div>
 
         <div id="mob_top">
-            <img id=logo_mob_navbar src="foto/loghi/Group%2019.svg">
+            <img id=logo_mob_navbar src="../foto/loghi/Group%2019.svg">
             <span id="nav_button" onclick="openNav()">&#9776;</span>
         </div>
     
@@ -68,110 +68,110 @@
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story01.png" style="width:100%" style=" width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story01.png" style="width:100%">
                 <div class="imgtitle">COPERTINA
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story02.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story02.png" style="width:100%">
                 <div class="imgtitle">SGUARDIE
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story03.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story03.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
             
              <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story04.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story04.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story05.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story05.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story06.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story06.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story07.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story07.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story08.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story08.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story09.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story09.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story10.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story10.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story11.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story11.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story12.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story12.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story13.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story13.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story14.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story14.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story15.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story15.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story16.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story16.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story17.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story17.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story18.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story18.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story19.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story19.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story20.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story20.png" style="width:100%">
                 <div class="imgtitle"></div>
             </div>
                
                <div class="mySlides fade">
-                <img src="foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story21.png" style="width:100%">
+                <img src="../foto/illustrazioni/gaia/modi_adogstory/modi_a%20dog%20story21.png" style="width:100%">
                 <div class="imgtitle">BACK</div>
             </div>
               
@@ -192,14 +192,15 @@
 
         </div>
         </div>
+    
 
 
-    </div>
+   
 
     <div class="footer">
 
             <a href="https://www.instagram.com/oklasmetto_/" >
-                <img src="foto/icone/instagram.png" alt="instagram"> 
+                <img src="../foto/icone/instagram.png" alt="instagram"> 
                 follow us on Instagram
             </a>
         
