@@ -1,3 +1,5 @@
+//--------------------- DESKTOP----------------------
+
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -24,15 +26,31 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 } 
 
-function showSlidesAuto() {
+//--------------------- MOBILE----------------------
+
+function showSlidesMob(n) {
     var i;
-    var slideIndex = 0;
-    var slides = document.getElementsByClassName("mySlides");
+    var slides = document.getElementsByClassName("mySlides_mob");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+        slides[i].style.display = "none";
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
+   
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 1000); // Change image every 2 seconds
-  } 
+    var text = document.getElementById("text_mob");
+    if (slideIndex == 1) {text.innerHTML = "ILLUSTRAZIONI"}
+    if (slideIndex == 2) {text.innerHTML = "FUMETTI"}
+    if (slideIndex == 3) {text.innerHTML = "FOTOGRAFIE"}
+    if (slideIndex == 4) {text.innerHTML = "MOSTRE"}
+} 
+
+// Next/previous controls
+function plusSlidesMob(n) {
+    showSlidesMob(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlideMob(n) {
+    showSlidesMob(slideIndex = n);
+}

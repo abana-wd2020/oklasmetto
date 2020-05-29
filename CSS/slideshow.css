@@ -1,4 +1,5 @@
 .mySlides {display: none}
+.mySlides_mob {display: none}
 
 /* Slideshow container */
 .slideshow-container {
@@ -16,7 +17,7 @@
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: -35px;
   color: #ec94c6;
   font-weight: bold;
   font-size: 35px;
@@ -81,6 +82,21 @@
   animation-duration: 1.5s;
 }
 
+.mob_img {
+  border-radius: 50%;
+  width: 100%;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+}
+
+#text_mob {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -96,9 +112,63 @@
   .prev, .next,.text {font-size: 11px}
 }
 
-@media screen and (max-width: 1300px) {
+
+
+/*--- MOBILE ---*/
+@media screen and (max-width: 1200px) {
   .slideshow-container {
     max-width: 100%;
+  }
+
+  .categories {
+    display: none;
+  }
+
+
+  .categories_slides {
+    display: block;
+  }
+
+  /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -35px;
+  color: #ec94c6;
+  font-weight: bold;
+  font-size: 35px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+}
+
+
+
+}
+
+/*--- DESKTOP ---*/
+@media screen and (min-width: 1200px) {
+  .categories {
+    display: block;
+  }
+
+  .categories_slides {
+    display: none;
   }
 
 }
