@@ -1,3 +1,5 @@
+/*CSS che mette le immagini in griglia responsive*/
+
 .image-grid{
     display: flex;
     justify-content: center;

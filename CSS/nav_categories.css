@@ -1,11 +1,10 @@
+/*barra di navigazione nelle categorie*/
+
 .nav_categories{
     display: flex;
     flex-direction: row;
     justify-content:center;
-   
-   
-    
-}
+   }
 
 .nav_categories img {
    width: 15px;
@@ -17,27 +16,23 @@
     padding-left: 10px;
     padding-right: 10px;
     align-self: baseline;
-}
+    }
 
 .nav_categories p{
     font-size: 20px;
-   
-}
+   }
 
 
 
 /*imageoverlay*/
  .thumbnail {
   position:relative;
-  
-     
-}
+  }
 
 .thumb_image {
-  
   width: 100%;
   height: auto;
-}
+  }
 
 .thumb_overlay {
   position: absolute;
@@ -50,7 +45,7 @@
   opacity: 0;
   transition: .5s ease;
   background-color: #ec94c6;
-}
+    }
 
 .thumbnail:hover .thumb_overlay {
   opacity: 80%;
