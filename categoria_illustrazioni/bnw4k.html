@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oklasmetto!</title>
+    <meta charset="UTF-8">
+    <link href="../CSS/progetto_open.css" rel="stylesheet" type="text/css">
+ 
+    <link href="../CSS/slide_image_project.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/navbar.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/footer.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/all.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="../java/navbar.js"></script>
+    <script type="text/javascript" src="../java/slideshow.js"></script>
+        
+</head>
+    
+<body>
+
+
+     <div id=desk_nav>
+            <div class="topnav" id="myTopnav">
+                <a id=nav_logo><img id=logo_navbar src="../foto/loghi/Group%2019.svg"></a>
+                
+                <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
+                <a href="../zine.html">ZINE</a>
+                <a href="../contatti.html">CONTATTI</a>
+                <a href="../chi_siamo.html">CHI SIAMO</a>
+            </div>
+        </div>
+
+
+        <div id="mob_nav" class="menu_overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menu_overlay-content">
+
+                <a href="../chi_siamo.html">CHI SIAMO</a>
+                <a href="../contatti.html">CONTATTI</a>
+                <a href="../zine.html">ZINE</a>
+                <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
+            </div>
+        </div>
+
+        <div id="mob_top">
+            <img id=logo_mob_navbar src="../foto/loghi/Group%2019.svg">
+            <span id="nav_button" onclick="openNav()">&#9776;</span>
+        </div>
+    
+    <div class="flex-slideimg">
+        <div class="description"> 
+
+            <h2 id="des_title"> BNW4K</h2>
+            <h4 id="sub"><strong>|alessandra|</strong></h4>
+
+            <p id=des_text_1>
+                </p>
+        </div>
+        
+        
+        <div class="foto"> 
+
+           <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img class=slide_img src="../foto/illustrazioni/ale/bnw4k.png" >
+                <div class="imgtitle">
+                </div>
+            </div>
+
+            <!-- The dots/circles 
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+                -->
+
+        </div>
+        </div>
+        
+    </div>
+    
+
+
+   
+
+    <div class="footer">
+
+            <a href="https://www.instagram.com/oklasmetto_/" >
+                <img src="../foto/icone/instagram.png" alt="instagram"> 
+                follow us on Instagram
+            </a>
+        
+
+    </div>
+ <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            //showSlidesAuto();
+        </script>
+</body>

@@ -26,7 +26,7 @@
             <div class="topnav" id="myTopnav">
                 <a href="index.html" id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
                 
-                <a href="#">SHOP</a>
+                <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
                 <a href="zine.html">ZINE</a>
                 <a href="contatti.html">CONTATTI</a>
                 <a href="chi_siamo.html">CHI SIAMO</a>
@@ -43,7 +43,7 @@
                 <a href="chi_siamo.html">CHI SIAMO</a>
                 <a href="contatti.html">CONTATTI</a>
                 <a href="zine.html">ZINE</a>
-                <a href="#">SHOP</a>
+                <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
             </div>
         </div>
 
@@ -78,8 +78,8 @@
             </div>
 
             <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" style="color: white;" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" style="color: white;" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <br>
 
@@ -127,6 +127,50 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+        <div class="news slideshow-container categories_slides">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides_mob fade">
+                <img class=mob_img src="foto/home/illustrations.png">
+            </div>
+
+            <div class="mySlides_mob fade">
+                <img class=mob_img src="foto/home/fumetti.png">
+            </div>
+
+            <div class="mySlides_mob fade">
+                <img class=mob_img src="foto/home/foto.png">
+            </div>
+
+
+            <div class="mySlides_mob fade">
+                <img class=mob_img src="foto/home/mostre.png">
+            </div>
+
+            <div id="text_mob">MOSTRE</div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlidesMob(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesMob(1)">&#10095;</a>
+            </div>
+            <br>
+
+        </div>
+
+
+
+
+
+
+
     
         <div class="footer">
 
@@ -142,6 +186,9 @@
         <script>
             var slideIndex = 1;
             showSlides(slideIndex);
+
+            var slideIndexMob = 1;
+            showSlidesMob(slideIndexMob);
             //showSlidesAuto();
         </script>
 

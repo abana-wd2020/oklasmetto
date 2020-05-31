@@ -12,8 +12,8 @@ body {font-family: 'Jost', sans-serif;}
 .zines > div {
  
   
-  margin: 30px;
-    margin-top: 40px;
+margin: 20px;
+
   text-align: center;
   line-height: 75px;
   font-size: 30px;
@@ -22,7 +22,8 @@ body {font-family: 'Jost', sans-serif;}
 /*imageoverlay*/
  .zine-container {
   position:relative;
-  
+  width: 30%;
+  cursor: pointer;
      
 }
 
@@ -59,4 +60,28 @@ body {font-family: 'Jost', sans-serif;}
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.zine_text_mob {
+  font-size: 20px;
+}
+
+/* mobile */
+@media screen and (max-width: 1300px) {
+  .zine-container {
+      width: 80%;
+  }
+
+  .zine_overlay {
+    display: none;
+  }
+
+}
+
+/* desktop */
+@media screen and (min-width: 1300px) {
+  .zine_text_mob {
+    display: none;
+  }
+
 }

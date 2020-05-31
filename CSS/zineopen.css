@@ -36,6 +36,8 @@
 
   #des_text {
       text-align: justify;
+      height: 300px;
+      overflow:scroll;
   }
 
   .social_ico {
@@ -97,11 +99,11 @@
 
 @media screen and (min-width: 1300px) {
     .description {
-        width: 40%;
+        width: 25%;
     }
     
     .foto {
-        width: 50%;
+        width: 70%;
     }
     
   
