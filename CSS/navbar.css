@@ -39,6 +39,115 @@
 }
 
 
+/*--- MOBILE NAV ---*/
+
+#logo_mob_navbar {
+    width: 280px;
+    vertical-align: middle;
+}
+
+#nav_button {
+    font-size:40px;
+    cursor:pointer;
+    padding-left: 20px;
+    padding-right: 0.2em;
+}
+
+.menu_overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(236,148,198, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.menu_overlay-content {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu_overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu_overlay a:hover, .menu_overlay a:focus {
+    color: black;
+}
+
+.menu_overlay .closebtn {
+    text-align: center;
+    margin-left: 295px;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+/*--- SEARCHBAR ---*/
+.search_bar {
+
+    border: 0;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-size: 1.3rem;
+    margin-top: 2em;
+}
+
+.search_overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(236,148,198, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.search_overlay-content {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search_overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.search_overlay a:hover, .search_overlay a:focus {
+    color: black;
+}
+
+.search_overlay .closebtn {
+    text-align: right;
+    margin: 0 auto;
+    padding-top: 1.7em;
+    padding-right: 0.5em;
+    width: 80%;
+}
+
+
+/* --- MEDIA QUERY --- */
 @media screen and (max-width: 1360px) {
     #desk_nav {
         display: none;
@@ -47,7 +156,7 @@
     #mob_top {
         display: flex;
         justify-content: center;
-		padding-top:1em;
+        padding-top:1em;
     }
 
 }
@@ -63,68 +172,20 @@
 
 }
 
-  /*--- MOBILE NAV ---*/
-
-    #logo_mob_navbar {
-        width: 280px;
-        vertical-align: middle;
-    }
-
-    #nav_button {
-        font-size:40px;
-        cursor:pointer;
-        padding-left: 20px;
-        padding-right: 0.2em;
-    }
-
-    
-
-    .menu_overlay {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: 0;
-        background-color: rgba(236,148,198, 0.9);
-        overflow-x: hidden;
-        transition: 0.5s;
-    }
-  
-    .menu_overlay-content {
-        position: relative;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-    }
-  
+@media screen and (max-height: 500px) {
     .menu_overlay a {
-        padding: 0px;
-        text-decoration: none;
-        font-size: 36px;
-        color: black;
-        display: block;
-        transition: 0.3s;
-    }
-  
-    .menu_overlay a:hover, .menu_overlay a:focus {
-        color: black;
-    }
-  
-    .menu_overlay .closebtn {
-        text-align: center;
-        margin-left: 314px;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
+        font-size: 20px;
     }
 
-
-    @media screen and (max-height: 450px) {
-    .menu_overlay a {
-        font-size: 20px
+    .search_overlay a {
+        font-size: 25px;
     }
+
+    .search_bar {
+        font-size: 14px;
+        margin-top: 1em;
+    }
+
     .menu_overlay .closebtn {
         font-size: 60px;
         top: 15px;

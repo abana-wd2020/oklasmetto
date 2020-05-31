@@ -17,33 +17,47 @@
 </head>
     
 <body>
-
-
+    
     <div id=desk_nav>
         <div class="topnav" id="myTopnav">
-            <a id=nav_logo><img id=logo_navbar src="../foto/loghi/Group%2019.svg"></a>
+            <a href="../index.html" id=nav_logo><img id=logo_navbar src="../foto/loghi/Group%2019.svg"></a>
             
+            <a href="javascript:openSearch()"> <img id=search_icon src="../foto/icone/search.png"> </a>
             <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
-            <a href="zine.html">ZINE</a>
-            <a href="contatti.html">CONTATTI</a>
-            <a class="active" href="chi_siamo.html">OK!CI SIAMO</a>
+            <a href="../zine.html">ZINE</a>
+            <a href="../contatti.html">CONTATTI</a>
+            <a class="active" href="../chi_siamo.html">OK!CI SIAMO</a>
         </div>
     </div>
 
+    <div id="search_menu" class="search_overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">
+            &times;
+        </a>
+        <div class="search_overlay-content">
+            <form>
+                <input class=search_bar type="text" name="cerca" placeholder="Cerca..">
+                <img src="../foto/icone/search_black.png">
+            </form>
+        </div>
+    </div>
 
     <div id="mob_nav" class="menu_overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="menu_overlay-content">
 
-            <a href="chi_siamo.html">CHI SIAMO</a>
-            <a href="contatti.html">CONTATTI</a>
-            <a href="zine.html">ZINE</a>
+            <a href="../chi_siamo.html">OK!CI SIAMO</a>
+            <a href="../contatti.html">CONTATTI</a>
+            <a href="../zine.html">ZINE</a>
             <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
+
+            <input class=search_bar type="text" name="cerca" placeholder="Cerca..">
+            <img src="../foto/icone/search_black.png">
         </div>
     </div>
 
     <div id="mob_top">
-        <img id=logo_mob_navbar src="../foto/loghi/Group%2019.svg">
+        <a href="../index.html"><img id=logo_mob_navbar src="../foto/loghi/Group%2019.svg"></a>
         <span id="nav_button" onclick="openNav()">&#9776;</span>
     </div>
 

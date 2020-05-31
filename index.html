@@ -26,6 +26,8 @@
             <div class="topnav" id="myTopnav">
                 <a href="index.html" id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
                 
+
+                <a href="javascript:openSearch()"> <img id=search_icon src="foto/icone/search.png"> </a>
                 <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
                 <a href="zine.html">ZINE</a>
                 <a href="contatti.html">CONTATTI</a>
@@ -33,17 +35,30 @@
             </div>
         </div>
 
+        <div id="search_menu" class="search_overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">
+                &times;
+            </a>
+            <div class="search_overlay-content">
+                <form>
+                    <input class=search_bar type="text" name="cerca" placeholder="Cerca..">
+                    <img src="foto/icone/search_black.png">
+                </form>
+            </div>
+        </div>
 
         <div id="mob_nav" class="menu_overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                 &times;
             </a>
             <div class="menu_overlay-content">
-
                 <a href="chi_siamo.html">CHI SIAMO</a>
                 <a href="contatti.html">CONTATTI</a>
                 <a href="zine.html">ZINE</a>
                 <a href="https://shop.spreadshirt.com/oklasmetto/">SHOP</a>
+
+                <input class=search_bar type="text" name="cerca" placeholder="Cerca..">
+                <img src="foto/icone/search_black.png">
             </div>
         </div>
 
@@ -100,28 +115,28 @@
             <div class="flex-container">
                 <div class="img_container">
                     <img class="gallery_image" src="foto/home/illustrations.png">
-                    <div class="img_overlay">
+                    <div class="img_overlay" onclick="openLink('illustrazioni.html')">
                         <div class="img_text">ILLUSTRAZIONI</div>
                       </div>
                 </div>
 
                 <div class="img_container">
                     <img class="gallery_image" src="foto/home/fumetti.png">
-                    <div class="img_overlay">
+                    <div class="img_overlay" onclick="openLink('fumetti.html')">
                         <div class="img_text">FUMETTI</div>
                       </div>
                 </div>
 
                 <div class="img_container">
                     <img class="gallery_image" src="foto/home/foto.png">
-                    <div class="img_overlay">
+                    <div class="img_overlay" onclick="openLink('fotografie.html')">
                         <div class="img_text">FOTOGRAFIE</div>
                       </div>
                 </div>
 
                 <div class="img_container">
                     <img class="gallery_image" src="foto/home/mostre.png">
-                    <div class="img_overlay">
+                    <div class="img_overlay" onclick="openLink('mostre.html')">
                         <div class="img_text">MOSTRE</div>
                       </div>
                 </div>
@@ -130,29 +145,23 @@
 
 
 
-
-
-
-
-
         <div class="news slideshow-container categories_slides">
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides_mob fade">
-                <img class=mob_img src="foto/home/illustrations.png">
+                <img class=mob_img src="foto/home/illustrations.png" onclick="openLink('illustrazioni.html')">
             </div>
 
             <div class="mySlides_mob fade">
-                <img class=mob_img src="foto/home/fumetti.png">
+                <img class=mob_img src="foto/home/fumetti.png" onclick="openLink('fumetti.html')">
             </div>
 
             <div class="mySlides_mob fade">
-                <img class=mob_img src="foto/home/foto.png">
+                <img class=mob_img src="foto/home/foto.png"  onclick="openLink('fotografie.html')">
             </div>
 
-
             <div class="mySlides_mob fade">
-                <img class=mob_img src="foto/home/mostre.png">
+                <img class=mob_img src="foto/home/mostre.png" onclick="openLink('mostre.html')">
             </div>
 
             <div id="text_mob">MOSTRE</div>
@@ -189,7 +198,15 @@
 
             var slideIndexMob = 1;
             showSlidesMob(slideIndexMob);
-            //showSlidesAuto();
+
+        </script>
+
+        <script>
+
+            function openLink(link) {
+                window.open(link,"_self");
+            }
+
         </script>
 
     </body>

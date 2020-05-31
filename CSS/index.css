@@ -58,12 +58,12 @@ body {font-family: 'Jost', sans-serif;}
     transition: .5s ease;
     background-color: #ec94c6;
     border-radius: 50%;
+    cursor: pointer;
 
   }
   
   .img_container:hover .img_overlay {
-    opacity: 80%;
-    
+    opacity: 80%;    
   }
 
   .img_text {
