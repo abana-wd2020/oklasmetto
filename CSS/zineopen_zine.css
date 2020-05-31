@@ -36,6 +36,7 @@
 
   #des_text {
       text-align: justify;
+      
   }
 
   .social_ico {
@@ -74,13 +75,10 @@
     }
 
     .flex-slideimg {
-        width: 80%;
+        width: 90%;
     }
 
-    #des_text {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
+    
 
     #des_title {
         text-align: center;

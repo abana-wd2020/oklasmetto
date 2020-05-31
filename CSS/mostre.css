@@ -27,6 +27,13 @@
 
 .thumb_text_mob {
   display: none;
+  text-decoration: none;
+}
+
+.row .column a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -45,6 +52,7 @@
     text-align: center;
     padding-bottom: 1em;
     display: block;
+    
   }
   
 }
