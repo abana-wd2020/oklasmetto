@@ -108,3 +108,12 @@
     }
 
 }
+
+/* --- DESKTOP --- */
+@media screen and (min-width: 1300px) {
+    .slide_img {
+    min-height: 600px;
+    
+}
+
+}

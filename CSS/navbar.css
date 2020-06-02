@@ -98,12 +98,11 @@
 
 /*--- SEARCHBAR ---*/
 .search_bar {
-
     border: 0;
     border-bottom: 2px solid black;
     background: transparent;
     font-size: 1.3rem;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .search_overlay {
