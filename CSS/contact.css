@@ -36,11 +36,15 @@ body {font-family: 'Jost', sans-serif; margin:0}
     border-radius: 25px;
     border: none;
     padding: 8px;
+    padding-left: 16px;
     width: 90%;
+
 }
 
-.back img {
+.contatti_sfondo {
     max-width: 1080px;
+    margin-top: 2em;
+    margin-bottom: 2em;
     }
 
 #rispondiamo {
@@ -49,10 +53,24 @@ body {font-family: 'Jost', sans-serif; margin:0}
     font-size: 30px;
 }
 
+.contatti_sfondo_mob {
+    display:none;
+}
+
+
+
 /*mobile*/
 @media screen and (max-width: 1300px) {
     .back {
         margin-top: 2em;
+    }
+
+    .contatti_sfondo_mob {
+        display:block;
+    }
+    
+    .contatti_sfondo_desk {
+        display:none;
     }
     
 

@@ -1,0 +1,52 @@
+.slideshow_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 100%;
+    transition: .5s ease;
+    background-color: transparent;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+.slideshow_overlay_content {
+   margin-right: 2.5em;
+
+}
+
+#titolo_shop {
+    letter-spacing: 0.2em;
+
+}
+
+#slogan_shop {
+    font-weight: normal;
+    margin-bottom: 1.5em;
+
+
+}
+
+#button_shop{
+    text-decoration: none;
+    color:black;
+    border-style: solid;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 0.5em;
+    font-weight: bold;
+    
+
+}
+
+#button_shop:hover{
+    background-color: #ec94c6;
+    color:white;
+    border: 0px solid;
+
+}
