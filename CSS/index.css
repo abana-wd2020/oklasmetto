@@ -77,3 +77,21 @@ body {font-family: 'Jost', sans-serif;}
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .slide_img_mob {
+    display:none;
+}
+
+  /* --- MOBILE --- */
+@media screen and (max-width: 1300px) {
+ 
+
+  .slide_img_mob {
+      display:block;
+  }
+
+  .slide_img_desk {
+      display:none;
+  }
+
+}
