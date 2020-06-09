@@ -106,11 +106,6 @@
     outline:none;
 }
 
-.search_bar:focus {
-    
-    
-}
-    
 
 .search_overlay {
     height: 100%;
@@ -118,7 +113,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: rgba(236,148,198, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
