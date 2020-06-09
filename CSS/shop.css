@@ -25,19 +25,21 @@
 
 }
 
-#titolo_shop {
+
+
+.titolo_shop {
     letter-spacing: 0.2em;
 
 }
 
-#slogan_shop {
+.slogan_shop {
     font-weight: normal;
     margin-bottom: 1.5em;
 
 
 }
 
-#button_shop{
+.button_shop{
     text-decoration: none;
     color:black;
     border-style: solid;
@@ -49,10 +51,65 @@
 
 }
 
-#button_shop:hover{
+.button_shop:hover{
     background-color: #ec94c6;
     color:white;
     border: 0px solid;
 
 }
+
+.visitashop_mob {
+    display:none;
+    text-align: center;
+}
+
+.slide_img_mob {
+    display:none;
+}
+
+
+
+/* --- MOBILE --- */
+@media screen and (max-width: 1300px) {
+    .slideshow_overlay {
+    display:none;
+    }
+
+    .visitashop_mob {
+        display:block;
+        padding-bottom: 4em;
+        
+    }
+
+    .slideshow-container {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        min-height: auto;
+        max-height: initial;
+        height: auto;
+        
+    }
+    
+    .flex-slideimg {
+        min-height: 0px;
+       
+    }
+    
+    .slide_img_mob {
+        display:block;
+    }
+
+    .slide_img_desk {
+        display:none;
+    }
+
+}
+
+/* --- DESKTOP --- */
+@media screen and (min-width: 1300px) {
+    
+
+}
+
 
