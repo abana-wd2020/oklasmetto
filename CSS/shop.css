@@ -14,6 +14,11 @@
     justify-content: flex-end;
   }
 
+  .slide_img {
+      width:100%;
+      min-height: auto;
+    }
+
 
 .slideshow_overlay_content {
    margin-right: 2.5em;
@@ -50,3 +55,4 @@
     border: 0px solid;
 
 }
+
