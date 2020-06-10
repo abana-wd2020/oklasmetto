@@ -81,6 +81,13 @@ body {font-family: 'Jost', sans-serif;}
   .slide_img_mob {
     display:none;
 }
+#text_mob {
+  display:none;
+}
+
+
+
+
 
   /* --- MOBILE --- */
 @media screen and (max-width: 1300px) {
@@ -93,5 +100,11 @@ body {font-family: 'Jost', sans-serif;}
   .slide_img_desk {
       display:none;
   }
+  
+  #text_mob {
+    display:block;
+  }
+
+  
 
 }
