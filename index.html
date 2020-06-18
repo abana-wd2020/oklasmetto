@@ -23,7 +23,7 @@
     
     <body>
     
-        <div id=desk_nav>
+        <div id=desk_nav> <!-- navbar per desktop -->
             <div class="topnav" id="myTopnav">
                 <a href="index.html" id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
                 
@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <div id="search_menu" class="search_overlay">
+        <div id="search_menu" class="search_overlay"> <!-- searchbar per desktop -->
             <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">
                 &times;
             </a>
@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <div id="mob_nav" class="menu_overlay">
+        <div id="mob_nav" class="menu_overlay"> <!-- navbar per mobile -->
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                 &times;
             </a>
@@ -58,33 +58,31 @@
                 <a href="zine.html">ZINE</a>
                 <a href="shop.html">SHOP</a>
 
-                <input class=search_bar type="text" name="cerca" placeholder="Cerca..">
+                <input class=search_bar type="text" name="cerca" placeholder="Cerca.."> <!-- searchbar per mobile -->
                 <img src="foto/icone/search_black.png">
             </div>
         </div>
 
-        <div id="mob_top">
+        <div id="mob_top"> <!--logo home su telefono--> 
             <a href="index.html"><img id=logo_mob_navbar src="foto/loghi/Group%2019.svg"></a>
             <span id="nav_button" onclick="openNav()">&#9776;</span>
         </div>
 
         
-
+        <!-- Slideshow -->
         <div class="news slideshow-container">
 
             
             <div class="mySlides fade">
                 <img class=slide_img_desk src="foto/home/news_02.gif" style="width:100%">
                 <img class=slide_img_mob src="foto/home/vertical.gif" style="width:100%">
-                <div class="text">WOOWMEN<br>|the exhibition|
-                </div>
+                <div class="text">WOOWMEN<br>|the exhibition|</div>
             </div>
 
             <div class="mySlides fade">
                 <img class=slide_img_desk src="foto/home/news_03.gif" style="width:100%">
                 <img class=slide_img_mob src="foto/home/slide_web2.png" style="width:100%">
-                <div class="text">#001 POSTERZINE<br>|speciale su woowmen|
-                </div>
+                <div class="text">#001 POSTERZINE<br>|speciale su woowmen|</div>
             </div>
 
             <div class="mySlides fade">
@@ -105,7 +103,7 @@
             </div>
             <br>
 
-            <!-- The dots/circles -->
+            <!-- cerchi sotto allo slideshow -->
             <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -115,8 +113,9 @@
 
         </div>
         
-        <h2 class="section_title" >SKILLS</h2>
+        <h2 class="section_title">SKILLS</h2>
         
+        <!-- categorie: illustrazioni-foto-fumetti-mostre -->
         <div class="categories">
 
             <div class="flex-container">
@@ -151,7 +150,7 @@
         </div>
 
 
-
+        <!-- slideshow categorie per il telefono-->
         <div class="news slideshow-container categories_slides">
 
             
@@ -183,11 +182,11 @@
 
         </div>
 
-        <div id="text_mob">MOSTRE</div>
+        <div id="text_mob">MOSTRE</div> <!-- sottotitolo per slideshow categorie per telefono-->
 
 
 
-        <div class="footer">
+        <div class="footer"> <!-- footer -->
 
             <div>
                 <a href="https://www.instagram.com/oklasmetto_/" >
@@ -197,8 +196,9 @@
             </div>
 
         </div>
-
-        <script>
+        
+        <!-- javascript per far funzionare lo slideshow -->
+        <script> 
             var slideIndex = 1;
             showSlides(slideIndex);
 
@@ -207,6 +207,7 @@
 
         </script>
 
+        <!-- javascript per quando clicchi riporta nella pagina della categoria -->
         <script>
 
             function openLink(link) {
