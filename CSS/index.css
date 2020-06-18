@@ -80,10 +80,11 @@ body {font-family: 'Jost', sans-serif;}
 
   .slide_img_mob {
     display:none;
-}
-#text_mob {
+  }
+  
+  #text_mob {
   display:none;
-}
+  }
 
 
 

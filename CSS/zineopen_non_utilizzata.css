@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-  }
+}
   
   #des_title {
     color: #ec94c6;
@@ -31,7 +31,6 @@
 
   #sub{
     color: black;
-    
 }
 
   #des_text {
@@ -105,15 +104,4 @@
     .foto {
         width: 70%;
     }
-    
-  
-
-    .flex-slideimg div {
-        
-      }
-
-
-
-    
-
 } 
