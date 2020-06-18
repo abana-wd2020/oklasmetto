@@ -21,7 +21,7 @@
     
 <body>
     
-    <div id=desk_nav>
+    <div id=desk_nav> <!-- navbar per desktop -->
         <div class="topnav" id="myTopnav">
             <a href="index.html" id=nav_logo><img id=logo_navbar src="foto/loghi/Group%2019.svg"></a>
             
@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <div id="search_menu" class="search_overlay">
+    <div id="search_menu" class="search_overlay"> <!-- searchbar per desktop -->
         <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">
             &times;
         </a>
@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <div id="mob_nav" class="menu_overlay">
+    <div id="mob_nav" class="menu_overlay"> <!-- navbar per mobile -->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="menu_overlay-content">
 
@@ -59,7 +59,7 @@
         </div>
     </div>
 
-    <div id="mob_top">
+    <div id="mob_top"> <!--logo home su telefono--> 
         <a href="index.html"><img id=logo_mob_navbar src="foto/loghi/Group%2019.svg"></a>
         <span id="nav_button" onclick="openNav()">&#9776;</span>
     </div>
@@ -71,10 +71,6 @@
         <div class="foto"> 
 
            <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text --> 
-            
-           
 
             <div class="mySlides fade">
                 <img class=slide_img src="t_shirt_png/3.gif">
@@ -132,7 +128,7 @@
         </div>
         
 
-        <div class=visitashop_mob>
+        <div class=visitashop_mob> <!--scritta visita il nostro shop per il telefono--> 
             <h1 class=titolo_shop>VISITA <Br>IL NOSTRO SHOP</h1>
             <h2 class=slogan_shop>"Potenzialmente pericoloso"</h2>
             <a class=button_shop href="https://shop.spreadshirt.com/oklasmetto/"> VISITA ORA</a>
@@ -152,7 +148,9 @@
         
 
     </div>
- <script>
+
+<!--javascript per far azionare lo slideshow--> 
+<script>
             var slideIndex = 1;
             showSlides(slideIndex);
             //showSlidesAuto();
