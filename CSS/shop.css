@@ -44,8 +44,11 @@
     color:black;
     border-style: solid;
     border-radius: 25px;
-    border: 2px solid black;
-    padding: 0.5em;
+    border: 2px solid  black ;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-weight: bold;
     
 
