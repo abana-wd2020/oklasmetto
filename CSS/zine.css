@@ -5,18 +5,17 @@ body {font-family: 'Jost', sans-serif;}
     flex-direction:row;
     justify-content: center;
     flex-flow:wrap;
-   
-   
-}
+    width:80%;
+    margin:0 auto;
+    
+   }
 
 .zines > div {
- 
-  
 margin: 20px;
-
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+margin-bottom: 40px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
 }
 
 /*imageoverlay*/
@@ -24,7 +23,6 @@ margin: 20px;
   position:relative;
   width: 30%;
   cursor: pointer;
-     
 }
 
 .zine_image {
@@ -68,12 +66,25 @@ margin: 20px;
 /* mobile */
 @media screen and (max-width: 1300px) {
   .zine-container {
-      width: 80%;
-  }
+    width: 100%;
+    }
 
   .zine_overlay {
     display: none;
   }
+
+  .zine {
+    width:100%;
+  }
+
+  .zines > div {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+
 
 }
 
