@@ -152,6 +152,7 @@
 
 
 /* --- MEDIA QUERY --- */
+/*regole per lo schermo più piccolo di 1430px, quindi in modalità mobile */
 @media screen and (max-width: 1430px) {
     #desk_nav {
         display: none;
@@ -165,9 +166,10 @@
 
 }
 
+/*regole per lo schermo più grandi di 1430px, quindi in modalità desktop */
 @media screen and (min-width: 1430px) {
     #desk_nav {
-        display: inline;
+        display: inline; /*se ci sono più oggetti, sono mostrati uno in fila dopo l'altro, dipende dal suo spazio*/
     }
 
     #mob_top {
@@ -176,6 +178,7 @@
 
 }
 
+/*regole per rimpicciolire il menu in schermi molto bassi, esempio tastiera sul mobile */
 @media screen and (max-height: 500px) {
     .menu_overlay a {
         font-size: 20px;
